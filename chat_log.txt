@@ -1,0 +1,32 @@
+Connected to MQTT Broker.
+You: han
+hannes: han
+Warning: You are sending messages too quickly. Please wait.
+You: ws
+hannes: ws
+Warning: You are sending messages too quickly. Please wait.
+You: aw
+hannes: aw
+Disconnected from MQTT Broker. Trying to reconnect...
+Connected to MQTT Broker.
+Connected to MQTT Broker.
+You: a
+hannes: a
+hannes: a
+Warning: You are sending messages too quickly. Please wait.
+You: a
+hannes: a
+hannes: a
+You: a
+hannes: a
+hannes: a
+Warning: You are sending messages too quickly. Please wait.
+You: addd
+hannes: addd
+hannes: addd
+You: hej
+You: hej
+Warning: You are sending messages too quickly. Please wait.
+Warning: You are sending messages too quickly. Please wait.
+Connected to MQTT Broker.
+Disconnected from MQTT Broker. Trying to reconnect...
