@@ -64,7 +64,7 @@ class ChatClientGUI:
         self.chat_display.config(state='disabled')
         self.chat_display.see(tk.END)
 
-        # Save the message to a log file
+        # Save to a log file
         with open("chat_log.txt", "a") as log_file:
             log_file.write(message + "\n")
 
@@ -75,7 +75,7 @@ class ChatClientGUI:
             self.user_list.insert(tk.END, username)
         self.active_users_label.config(text=f"Active Users: {len(self.active_users)}")
 
-        # Schedule removal of inactive users after 5 minutes
+        # Remove after inactivity users after 5 minutes
         self.root.after(300000, lambda: self.remove_inactive_user(username))
 
     def remove_inactive_user(self, username):
